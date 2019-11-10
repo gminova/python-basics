@@ -15,7 +15,7 @@ else:
     else:
         print('elderly')
 
-grade = 66
+grade = 6
 
 if grade < 3:
     print('Fail')
