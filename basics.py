@@ -8,8 +8,13 @@ print('5 + 7 = ', 5 + 7)
 print('6 - 2 = ', 6 - 2)
 print('8 * 4 = ', 8 * 4)
 print('9 / 3 = ', 9 / 3)
+# floor division - return quotient
+print('20 // 6 = ', 20 // 6)
+# exponentiation
 print('2 ** 2 = ', 2 ** 2)
+# modulo - return remainder
 print('5 % 6 = ', 5 % 6)
+print('5 % 4 = ', 5 % 4)
 print('5 % 5 = ', 5 % 5)
 print('5 + 5 * 5 = ', 5 + 5 * 5)
 print('(10 - 2) * 4 = ', (10 - 2) * 4)
