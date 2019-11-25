@@ -5,3 +5,5 @@ try:
     print('Done calculation')
 except ZeroDivisionError:
     print("Divided by zero")
+finally:
+    print('The END')
