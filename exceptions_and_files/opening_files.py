@@ -1,5 +1,6 @@
 file = open('exceptions_and_files/myfile.txt')
 print(file.read(15))  # print first 15 chars
+file.close()
 
 # # write mode
 # open("exceptions_and_files/myfile.txt", "w")
