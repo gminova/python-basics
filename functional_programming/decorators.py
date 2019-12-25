@@ -6,9 +6,6 @@ def decor(func):
     return wrap
 
 
+@decor
 def print_text():
     print("Hello world!")
-
-
-decorated = decor(print_text)
-decorated()
