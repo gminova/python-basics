@@ -17,3 +17,21 @@ class Dog(Animal):
 fido = Dog("Fido", "brown")
 print(fido.color)
 fido.bark()
+
+
+class Wolf:
+    def __init__(self, name, colour):
+        self.name = name
+        self.colour = colour
+
+    def bark(self):
+        print('Grr...')
+
+
+class Dog(Wolf):
+    def bark(self):
+        print('Awoooo')
+
+
+husky = Dog('max', 'grey')
+husky.bark()
