@@ -28,10 +28,45 @@ class Wolf:
         print('Grr...')
 
 
-class Dog(Wolf):
+class Doggy(Wolf):
     def bark(self):
         print('Awoooo')
 
 
-husky = Dog('max', 'grey')
+husky = Doggy('max', 'grey')
 husky.bark()
+
+
+class A:
+    def method(self):
+        print("A method")
+
+
+class B(A):
+    def another_method(self):
+        print("B method")
+
+
+class C(B):
+    def third_method(self):
+        print("C method")
+
+
+c = C()
+c.method()
+c.another_method()
+c.third_method()
+
+
+class M:
+    def spam(self):
+        print(1)
+
+
+class N(M):
+    def spam(self):
+        print(2)
+        super().spam()
+
+
+N().spam()
