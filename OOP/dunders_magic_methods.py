@@ -12,4 +12,14 @@ second = Vector2D(3, 9)
 result = first + second
 print(result.x)
 print(result.y)
-.
+#
+# More magic methods for common operators:
+# __sub__ for -
+# __mul__ for *
+# __truediv__ for /
+# __floordiv__ for //
+# __mod__ for %
+# __pow__ for **
+# __and__ for &
+# __xor__ for ^
+# __or__ for |
