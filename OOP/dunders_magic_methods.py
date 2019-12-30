@@ -37,3 +37,11 @@ class SpecialString:
 spam = SpecialString("spam")
 hello = SpecialString("Hello world!")
 print(spam / hello)
+
+# Python also provides magic methods for comparisons.
+# __lt__ for <
+# __le__ for <=
+# __eq__ for ==
+# __ne__ for !=
+# __gt__ for >
+# __ge__ for >=
