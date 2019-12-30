@@ -45,3 +45,11 @@ print(spam / hello)
 # __ne__ for !=
 # __gt__ for >
 # __ge__ for >=
+
+# There are several magic methods for making classes act like containers.
+# __len__ for len()
+# __getitem__ for indexing
+# __setitem__ for assigning to indexed values
+# __delitem__ for deleting indexed values
+# __iter__ for iteration over objects (e.g., in for loops)
+# __contains__ for in
