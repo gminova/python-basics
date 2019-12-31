@@ -21,3 +21,16 @@ print(q)
 q.pop()
 print(q)
 print(q._hiddenlist)
+
+
+class Spam:
+    __egg = 7  # doubke underscore makes a method strongly private
+
+    def print_egg(self):
+        print(self.__egg)
+
+
+s = Spam()
+s.print_egg()
+print(s._Spam__egg)
+# print(s.__egg) # AttributeError: 'Spam' object has no attribute '__egg'
