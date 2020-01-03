@@ -20,3 +20,9 @@ if match:
     print(match.start())
     print(match.end())
     print(match.span())
+
+# re.sub(pattern, repl, string, count=0)
+str = "My name is David. Hi David."
+pattern = r"David"
+newstr = re.sub(pattern, "Amy", str, 1)
+print(newstr)
